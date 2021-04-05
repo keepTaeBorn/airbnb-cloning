@@ -12,55 +12,71 @@
     list-style:none;
 }
 
-#hyunjun{
-    justify-content: center;
+.experience{
+    padding-top : 100px;
+    padding-left : 150px;
+    padding-right : 150px;
+    padding-bottom : 100px;
 }
 
-#experience{
-    width: calc(100% - 50px);
+.experience .title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#experience .title{
+.experience .introduction{
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#experience .introduction{
+.experience .category{
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#experience .category{
+.experience .category-introduction{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#experience .category-introduction{
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+.list{
+    padding-left: 0px;
+    display : flex;
+    flex-direction:row;
+    justify-content:space-between;
 }
 
+.list img{
+    width:206.625px;
+    height:206.625px
+}
 
-/***************/
 
 .information{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-color:lightgrey;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
     display : flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.info ul{
-    height:400px;
-    align-content:space-around;
+.info ul li{
+    padding-top: 20px;
+    padding-right: 90px;
 }
 
-.settings{
+.settings section{
+    padding-top: 20px;
+    padding-bottom:15px;
+    margin-bottom:0px;
+    background-color:lightgrey;
     display : flex;
     flex-direction: row;
     justify-content: space-around;
     align-items : center;
 }
 
-.language-and-currency{
-    align-items : center;
-}
+
