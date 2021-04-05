@@ -1,7 +1,26 @@
 
 /*CSS style from HYUNJUN*/
+#hyunjun a{
+    color: black;
+    text-decoration: none;
+}
 
-.experience-list{
-    display: flex;
-    flex-direction: row-reverse;
+#experience .title{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#experience .introduction{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#experience .category{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#experience .category-introduction{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
