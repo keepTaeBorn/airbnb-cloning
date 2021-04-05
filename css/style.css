@@ -1,0 +1,7 @@
+
+/*CSS style from HYUNJUN*/
+
+.experience-list{
+    display: flex;
+    flex-direction: row-reverse;
+}
