@@ -1,8 +1,23 @@
 
 /*CSS style from HYUNJUN*/
+
+/*making links not purple, not underlined, not dotted*/
+
 #hyunjun a{
     color: black;
     text-decoration: none;
+}
+
+#hyunjun ul{
+    list-style:none;
+}
+
+#hyunjun{
+    justify-content: center;
+}
+
+#experience{
+    width: calc(100% - 50px);
 }
 
 #experience .title{
@@ -23,4 +38,29 @@
 #experience .category-introduction{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/***************/
+
+.information{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info ul{
+    height:400px;
+    align-content:space-around;
+}
+
+.settings{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items : center;
+}
+
+.language-and-currency{
+    align-items : center;
 }
