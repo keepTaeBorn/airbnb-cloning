@@ -1,0 +1,168 @@
+ul{
+    list-style: none;
+}
+
+#seongho *{
+    margin: 0 auto;
+    box-sizing:border-box
+}
+
+html, body #seongho{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#seongho .nearby{
+    
+}
+#seongho .nearby .lookaround {
+    font-size: 32px;
+    font-weight: 650;
+    letter-spacing: :-0.02em;
+    line-height: 28px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#seongho .nearby .near_list {
+    display: grid;
+    overflow-x: auto;
+    gap: 16px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1500px;
+    
+    
+}
+
+
+
+#seongho .nearby .near_list li {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    
+}
+
+#seongho .nearby .near_list .near_letter { 
+    margin-left: 15px;
+
+}
+
+#seongho .nearby .near_list .nearby0 {
+    width: 72px;
+    height: 72px;
+    object-fit: cover; 
+    vertical-align: bottom
+    
+}
+
+#seongho .nearby .near_list .nearby1 {
+    font-weight: 550;
+    font-size: 16px;
+}
+
+#seongho .nearby .near_list .nearby2 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#seongho .anywhere{
+    display: table;
+}
+#seongho .anywhere .res_here {
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 650;
+    letter-spacing: :-0.02em;
+    line-height: 28px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#seongho .anywhere .anywhere_list {
+    display: flex;
+    --webkit-text-size-adjust: 100%;
+    font-family: Helvetica sans-serif;
+    align-content: center;
+    max-width: 1500px;
+}
+
+#seongho .anywhere .anywhere_list .anywhere0 {
+    margin-top: 10px;
+    margin-right: 15px;
+    width: 93%;
+    height: auto;
+    max-width: 370px;
+    max-height: 370px;
+    border-radius: 3%;
+}
+
+#seongho .anywhere .anywhere_list .anywhere1 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600px;
+    white-space: pre-line;
+    max-height: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:--webkit-box;
+    --webkit-line-clamp: 2;
+    --webkit-box-orient: vertical;
+
+}
+
+
+#seongho .lethost .lethost_img{
+    position:relative;
+    width: 90%;
+    align-content: center;
+    max-width:1500px;
+    
+}
+
+#seongho .lethost .lethost_img .lethost0{
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    max-width: 1500px;
+    max-height: 500px;
+    border-radius: 16px;
+    overflow: hidden;
+
+}
+
+#seongho .lethost .lethost_img .lethost1{
+    font-size:48px;
+    line-height: 52px;
+    height: 40vh;
+    width: 40vw;
+    color:white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+
+#seongho .lethost .lethost_img .lethost2{
+    font-size: 20px;
+    height: 10vh;
+    line-height: 24px;
+    font-weight: 350;
+    color: white;
+    margin-top: 30px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+#seongho .lethost .lethost_img .lethost3 {
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+    top: 55%;
+    left: 10%;
+
+}
