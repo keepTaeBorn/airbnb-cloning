@@ -12,7 +12,7 @@
     list-style:none;;
 }
 
-.experience{
+#hyunjun .experience{
     box-sizing : border-box;
     width: 100%;
     padding-top : 100px;
@@ -21,28 +21,28 @@
     padding-bottom : 100px;
 }
 
-.experience .title{
+#hyunjun .experience .title{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.experience .introduction{
+#hyunjun .experience .introduction{
     font-size: 26px;
     padding-bottom : 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.experience .category{
+#hyunjun .experience .category{
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.experience .category-introduction{
+#hyunjun .experience .category-introduction{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.list{
+#hyunjun .list{
     padding-left: 0px;
     padding-right: 0px;
     display : flex;
@@ -50,19 +50,19 @@
     justify-content:space-between;
 }
 
-.list li{
+#hyunjun .list li{
     box-sizing : border-box;
     width: 100%;
 }
 
-.list img{
+#hyunjun .list img{
     box-sizing : border-box;
     height: 80%;
     width: 95%;
     border-radius: 10px;
 }
 
-.information{
+#hyunjun .information{
     padding-top: 20px;
     padding-bottom: 80px;
     background-color:lightgrey;
@@ -73,12 +73,12 @@
     justify-content: space-around;
 }
 
-.info ul li{
+#hyunjun .info ul li{
     padding-top: 20px;
     padding-right: 90px;
 }
 
-.settings section{
+#hyunjun .settings section{
     padding-top: 20px;
     padding-bottom:15px;
     margin-bottom:0px;
