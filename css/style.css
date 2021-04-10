@@ -11,9 +11,10 @@ body {
     margin: 0;
 }
 header {
-    position: sticky;
+    position: fixed;
     top: 0px;
     display: flex;
+    transition: top 0.5s;
     background-color: black;
     justify-content: space-around;
 }
