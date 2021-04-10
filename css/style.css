@@ -1,10 +1,12 @@
+
 aside {
-    position: relative; 
+    position: relative;
     background-color: #222;
     padding: 20px;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+    z-index: 1000;
 }
 a { color: gray;}
 
@@ -13,23 +15,28 @@ body {
     margin: 0;
 }
 header {
-    position: relative;
+    position: fixed;
+    top: 0px;
+    padding-top: 50px;
     display: flex;
     background-color: black;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    z-index: 2;
+    z-index: 100;
 }
 
+
 header .logo .l-icon { 
-    width: 118px; 
-    margin: 30px;
+    width: 100px; 
+    margin: 10px;
+    margin-right: 150px;
+    margin-left: 70px;
 }
 
 header .settings {
     display: inline-flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-evenly;
     justify-items: right;
 }
@@ -37,43 +44,66 @@ header .settings {
 header .settings .u-icon {
     width: 77px;
     height: 42px;
-    margin: 10px;
+    margin: 5px;
+    margin-right: 80px;
     cursor: pointer;
 }
+
 header .settings .w-icon {
     width: 20px;
-    margin: 10px;
+    margin: 5px;
+    padding: 10px;
     cursor: pointer;
+    background-color: black;
+    transition: background-color .5s;
 }
+
+header .settings .w-icon:hover {
+    background-color: #2a2725
+}
+
 header .settings .host {
     width: 95.55px;
     height: 34px;
-    margin: 10px;
-    border-radius: 10px;
+    margin: 5px;
+    border-radius: 20px;
     background-color: black;
+    transition: background-color .5s;
     color: white;
     font-size: 15px;
     cursor: pointer;
+}
+
+header .settings .host:hover {
+    background-color: #2a2725;
 }
 
 header .menu {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 30px;
+    display: flex;
 }
 
-ul {
+header .menu ul {
     margin: 0px;
     padding: 0px;
     display: flex;
 }
 
-li {
+header .menu ul li {
     list-style: none;
     float: left;
-    margin: 15px;
+    margin: 5px;
+    padding: 10px;
     white-space: nowrap;
     cursor: pointer;
+    justify-content: center;   
+    background-color: black;
+    transition: background-color .5s;
+}
+header .menu ul li:hover {
+    background-color: #2a2725
 }
 
 #stellabyul {
@@ -81,12 +111,16 @@ li {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 90px;
 }
 
 #stellabyul .back-img {
-    width: 100%;
-    height: 100%;
-    text-align: center;
+    width: 90%;
+    position: relative;
+    z-index: 1;
+    top: -30px;
+    display: block;
+    margin: auto;
 }
 
 #stellabyul .welcome {
@@ -96,16 +130,13 @@ li {
     margin: 10px;
     margin-bottom: 30px;
 }
-#stellabyul .back-img{
-    position: relative;
-    z-index: 1;
-    top: -30px;
-}
+
 #stellabyul .search {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 800px;
+    height: 40px;
     background-color: white;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -113,7 +144,7 @@ li {
     padding: 10px;
     border-radius: 40px;
     position: relative;
-    z-index: 3;
+    z-index: 200;
 }
 
 #stellabyul .search .search-icon {
@@ -122,7 +153,10 @@ li {
     border-radius: 50%;
     cursor: pointer;
 }
-
+#stellabyul .location ,.loc-input ,.checkin ,.ci-input ,.checkout ,.co-input ,.people ,.p-input{
+    margin-left: 40px;   
+    margin-right: 10px;
+}
 
 #stellabyul .loc-input {
     display: block;
