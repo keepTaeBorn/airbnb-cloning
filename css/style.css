@@ -1,47 +1,52 @@
-ul{
+#seongho ul{
     list-style: none;
 }
 
 #seongho *{
     margin: 0 auto;
     box-sizing:border-box
+    justify-contents: center;
 }
 
 html, body #seongho{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #seongho .nearby{
+    display: table;
     
 }
+
 #seongho .nearby .lookaround {
     font-size: 32px;
-    font-weight: 650;
+    font-weight: 600;
     letter-spacing: :-0.02em;
     line-height: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: 50px;
+    width: 1500px;
 }
 
 #seongho .nearby .near_list {
     display: grid;
     overflow-x: auto;
-    gap: 16px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 1500px;
-    
-    
+    max-width: 1550px;
+    gap: 16px;
 }
 
 
 
+
 #seongho .nearby .near_list li {
+    margin: 0 0;
     display: flex;
     align-items: center;
+    justify-self: start;
+    justify-content: start;
     line-height: 20px;
-    
 }
 
 #seongho .nearby .near_list .near_letter { 
@@ -54,7 +59,6 @@ html, body #seongho{
     height: 72px;
     object-fit: cover; 
     vertical-align: bottom
-    
 }
 
 #seongho .nearby .near_list .nearby1 {
@@ -71,9 +75,9 @@ html, body #seongho{
     display: table;
 }
 #seongho .anywhere .res_here {
-    margin-top: 50px;
+    margin-top: 80px;
     font-size: 32px;
-    font-weight: 650;
+    font-weight: 600;
     letter-spacing: :-0.02em;
     line-height: 28px;
     margin-bottom: 20px;
@@ -99,9 +103,9 @@ html, body #seongho{
 }
 
 #seongho .anywhere .anywhere_list .anywhere1 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
-    font-weight: 600px;
+    font-weight: 700px;
     white-space: pre-line;
     max-height: 44px;
     overflow: hidden;
@@ -109,6 +113,7 @@ html, body #seongho{
     display:--webkit-box;
     --webkit-line-clamp: 2;
     --webkit-box-orient: vertical;
+    margin-top: 5px;
 
 }
 
@@ -122,18 +127,17 @@ html, body #seongho{
 }
 
 #seongho .lethost .lethost_img .lethost0{
-    margin-top: 40px;
+    margin-top: 80px;
     height: 100%;
-    width: 100%;
-    max-width: 1500px;
-    max-height: 500px;
+    width: 105%;
+    max-width: 1570px;
+    max-height: 480px;
     border-radius: 16px;
     overflow: hidden;
-
 }
 
 #seongho .lethost .lethost_img .lethost1{
-    font-size:48px;
+    font-size:43px;
     line-height: 52px;
     height: 40vh;
     width: 40vw;
@@ -145,7 +149,7 @@ html, body #seongho{
 }
 
 #seongho .lethost .lethost_img .lethost2{
-    font-size: 20px;
+    font-size: 19px;
     height: 10vh;
     line-height: 24px;
     font-weight: 350;
