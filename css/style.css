@@ -90,3 +90,203 @@
 }
 
 
+aside {
+    position: relative;
+    background-color: #222;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+}
+a { color: gray;}
+
+
+body {
+    margin: 0;
+}
+header {
+    position: fixed;
+    top: 0px;
+    padding-top: 50px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+}
+
+
+header .logo .l-icon { 
+    width: 100px; 
+    margin: 10px;
+    margin-right: 150px;
+    margin-left: 70px;
+}
+
+header .settings {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: right;
+}
+
+header .settings .u-icon {
+    width: 77px;
+    height: 42px;
+    margin: 5px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+header .settings .w-icon {
+    width: 20px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: black;
+    transition: background-color .5s;
+}
+
+header .settings .w-icon:hover {
+    background-color: #2a2725
+}
+
+header .settings .host {
+    width: 95.55px;
+    height: 34px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: black;
+    transition: background-color .5s;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+header .settings .host:hover {
+    background-color: #2a2725;
+}
+
+header .menu {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    display: flex;
+}
+
+header .menu ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+header .menu ul li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+    justify-content: center;   
+    background-color: black;
+    transition: background-color .5s;
+}
+header .menu ul li:hover {
+    background-color: #2a2725
+}
+
+#stellabyul {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+}
+
+#stellabyul .back-img {
+    width: 90%;
+    position: relative;
+    z-index: 1;
+    top: -30px;
+    display: block;
+    margin: auto;
+}
+
+#stellabyul .welcome {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+#stellabyul .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+    z-index: 200;
+}
+
+#stellabyul .search .search-icon {
+    width: 45px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#stellabyul .location ,.loc-input ,.checkin ,.ci-input ,.checkout ,.co-input ,.people ,.p-input{
+    margin-left: 40px;   
+    margin-right: 10px;
+}
+
+#stellabyul .loc-input {
+    display: block;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: none;
+    color: #222222;
+    text-overflow: ellipsis;
+}
+
+#stellabyul .ci-input {
+    display: block;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: none;
+    color: #222222;
+    text-overflow: ellipsis;
+}
+#stellabyul .co-input {
+    display: block;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: none;
+    color: #222222;
+    text-overflow: ellipsis;
+}
+#stellabyul .p-input {
+    display: block;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: none;
+    color: #222222;
+    text-overflow: ellipsis;
+}
